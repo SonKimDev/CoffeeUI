@@ -1,14 +1,7 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-
-const App = () => {
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  );
-};
+import 'react-native-gesture-handler';
+import Navigation from './src/components/Navigation';
+function App() {
+  return <Navigation />;
+}
 
 export default App;
-
-const styles = StyleSheet.create({});
